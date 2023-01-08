@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rowdies';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container {
+  background-color: blanchedalmond;
+  display: flex;
+  width: 70vw;
+  height: 100vh;
+}
+
+.photo {
+  position: relative;
+  width: 50%;
+  background: url('https://i.pinimg.com/originals/cd/f0/fd/cdf0fd30ca4aa5aab04686ae96323056.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+h2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  top: 0.1rem;
+  font-size: 1rem;
+  border: #a75d5d solid 5px;
+  color: #eac7c7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  background-color: #eac7c7;
+  transition: width 0.5s ease;
+}
+
+.form:hover {
+  width: 60%;
+}
+
+input {
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+  height: 3rem;
+  border: #a75d5d solid 5px;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+  height: 3rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: #eac7c7;
+  color: #eac7c7;
+  font-size: 1rem;
+  background-color: #a75d5d;
+}
+
+button:hover {
+  background-color: #b17f7f;
+}
+
+form span p {
+  font-size: 1rem;
+}
+
+.img {
+  gap: 3rem;
+  display: grid;
+  grid-template-columns: 18vh 18vh;
+  grid-template-rows: 8vw 8vw;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  cursor: pointer;
+  border: #a75d5d solid 8px;
+  border-radius: 1.5rem;
+}
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover {
+  height: 18vh;
+  width: 10vw;
+}
+
+.img1 {
+  background: url('https://i.pinimg.com/originals/d9/9a/69/d99a6995906e8006fa759859449d240c.gif');
+  background-size: cover;
+}
+
+.img2 {
+  background: url('https://i.pinimg.com/originals/81/01/a6/8101a61ea9f5645cc3c65f9cb3887865.gif');
+  background-size: cover;
+}
+
+.img3 {
+  background: url('https://i.pinimg.com/originals/34/17/f4/3417f49a547682eb7b18c17ef8476f09.gif');
+  background-size: cover;
+}
+
+.img4 {
+  background: url('https://i.pinimg.com/originals/49/1e/cf/491ecfcebd2192e29b758ca798717ec6.gif');
+  background-size: cover;
+}
